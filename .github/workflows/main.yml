@@ -1,7 +1,6 @@
 name: CI to Docker Hub 
-
-on: [pus_request, workflow_dispatch]
-    branches: [ main ]
+on: [ push, workflow_dispatch ]
+    
 
 jobs:
 
